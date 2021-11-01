@@ -8,7 +8,7 @@
     
     @font-face {
         font-family: 'Lato';
-        src: url(assets/fonts/Lato-Thin.ttf);
+        src: url(assets/fonts/Lato-Regular.ttf);
     }
     
     body{
@@ -96,7 +96,7 @@
     }
 
     h1, h2, h3 {
-        font-family: Montserrat, sans-serif;
+        font-family: 'Monsterrat', sans-serif;
     }
 
     h1 {
@@ -116,7 +116,8 @@
     }
     
 header {
-    background-image: url("../data1200_oblig2/assets/img/studentsbg.png");
+    background-image: url("assets/img/studentsbg.png");
+    background-color: rgb(172, 34, 34);
     background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
@@ -229,8 +230,9 @@ article {
 
 
 
-/*TABLET*/
+/*iPad*/
 @media screen and (min-width: 600px) and (max-width: 960px){
+    
     header > div, main, footer{
         width: 85vw;
     }
@@ -250,7 +252,7 @@ article {
         margin-bottom: 13vh;
     }
 
-    /*Articles*/
+    /*artikler iPad*/
  
     article{
         column-count: 2;
@@ -329,7 +331,7 @@ article {
 }
    
 
-/*PHONE*/
+/*mobil*/
 @media screen and (max-width: 599px){
     body {
         font-size: 14px;
@@ -373,7 +375,7 @@ article {
         padding: 0;
     }
 
-    /*Articles*/
+    /*artikler-mobil*/
     
     main > article > img{
         width: 100%;
