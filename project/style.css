@@ -84,13 +84,6 @@
     }
 
 }
-
-    @font-face {
-        font-family: Montserrat;
-        src: url("../data1200_oblig2/assets/fonts/Montserrat-Bold.ttf");
-        font-weight: bold;
-    }
-
     body {
     
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
